@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang=''>
+<head>
+   <meta charset='utf-8'>
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="stylesheet" href="assets/css/styles.css">
+   <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+   <title>Chatter - User Guide</title>
+</head>
+<body>
+
+<!--NAVBAR-->	
+    <nav id="menu">
+		<ul>
+			<li><a href='#start'>Start</a></li>
+			<li><a href='#about'>About</a></li>
+            <li><a href='#parse'>Parse</a></li>
+            <li><a href='#facebook'>Facebook</a></li>
+			<li><a href='#contact'>Contact</a></li>
+		</ul>
+	</nav>
+	
+    <div id="wrapper">
+    <!--Start-->
+    	<div id="start">
+        	<h1>Chatter IM App iOS</h1>
+            
+            <p>iOS 7 & iOS 8 Compatible</p>
+            <p>Created: 20/10/2014</p>
+            <p>By: Tech&amp;Sound</p>
+            <p>Email: support@technsound.com</p>
+            <p><img class="mockup" src="assets/images/mockup.png"/><p>
+        </div>
+        
+        <hr>
+        
+        <!--About-->
+        <div id="about">
+            <h2>About Chatter</h2>
+            
+            <p>Chatter is an instant messaging iOS app.</p>
+            <p>Easy to customise and once you have changed the app images and settings it will ready for the App Store</p>
+            <p><strong>Features Include:</strong></p>
+            <p>Register/Login views</p>
+            <p>Facebook login</p>
+            <p>Basic Profile view</p>
+            <p>Change profile picture possibility</p>
+            <p>Live chat between multiple devices</p>
+            <p>No backend programming needed</p>
+            <p>Native and easy to customize user interface</p>
+            <p>Settings View</p>
+            <p>Many More</p>
+        </div>
+        <hr>
+        
+        <!--Parse-->
+        <div id="parse">
+            <h2>Setting Up Parse</h2>
+            
+            <p>Parse.com provides a backend service to developers.</p>
+            <p>It is easy to install into apps and is free to use</p>
+            <br>
+            <p><strong>Step 1:</strong></p>
+            <p>Visit <a href='https://parse.com'>Parse.com</a></p>
+            
+            <p><strong>Step 2:</strong></p>
+            <p>Sign up for an account (this will only take 2 minutes).</p>
+            
+            <p><strong>Step 3:</strong></p>
+            <p>Once sign up is complete, you should be presented with a screen that looks similiar to the one below. Click on Settings at the top of the screen</p>
+            <p><img src="assets/images/parse1.jpg"/><p>
+            
+            
+            <p><strong>Step 4:</strong></p>
+            <p>Once you are on the settings tab on the left hand side you will see "Keys" link, click on it and you will be presented with a screen like the one below.</p>
+            <p><img src="assets/images/parse2.jpg"/><p>
+            
+            <p><strong>Step 5:</strong></p>
+            <p>Now you can see your Parse app keys we can place them inside our iOS code. Open up the Chatter project in Xcode, open the "app" folder and click on "AppDelegate.m"</p>
+            
+            <p><strong>Step 6:</strong></p>
+            <p>Now you are in the AppDelegate.m file you can change the app keys to the ones provided on the "Keys" screen in parse. Example Below. </p>
+            <p><img src="assets/images/parse3.jpg"/><p>
+            
+            <p><strong>Thats It!</strong></p>
+            <p>Parse is now setup in your app </p>
+        </div>
+        <hr>
+        
+        <!--Facebook-->
+        <div id="facebook">
+            <h2>Setting Up Facebook</h2>
+            
+            <p>To allow your users to login via Facebook you will need to setup a developers account within Facebook</p>
+            <br>
+            <p><strong>Step 1:</strong></p>
+            <p>Register or sign in to Facebook then visit <a href="https://developers.facebook.com/">developers.facebook.com</a>.</p>
+            
+            <p><strong>Step 2:</strong></p>
+            <p>Click the "Apps" tab at the top and then "Add a New App"</p>
+            <p><img src="assets/images/fb1.jpg"/><p>
+            
+            <p><strong>Step 3:</strong></p>
+            <p>Follow the instructions and once all is done go to your "App Dashboard" within Facebook.</p>
+            
+            <p><strong>Step 4:</strong></p>
+            <p>In your dashboard you will see an app ID and an app secret code. Copy the app ID code</p>
+            <p><img src="assets/images/fb2.jpg"/><p>
+            
+            <p><strong>Step 5:</strong></p>
+            <p>In Xcode go to "App > Supporting Files > info.plist and paste the app ID code from facebook into the value of the FacebookAppID key. </p>
+            
+            <p><strong>Step 6:</strong></p>
+            <p>Now copy the same key into "URL types > Item 0 > URL Schemes > Item 0" value in the info.plist but this time put "fb" (without quotes) infront of the app ID key.  </p>
+            <p><img src="assets/images/fb3.jpg"/><p>
+            <p><strong>Thats It!</strong></p>
+            <p>You should now be able to login to your app with Facebook</p>
+        </div>
+       <hr>
+        
+        <!--Settings-->
+        <div id="settings">
+            <h2>App Settings Tab</h2>
+            <p>In the settings tab in the Chatter app you will be able to access your profile page, about app page, tell a friend and log out.</p>
+            
+            <p>To edit the settings tab follow these simple instructions</p>
+            
+            <p><strong>Step 1 (Tell a Friend):</strong></p>
+            <p>To edit the links for the tell a friend action you will need to go to the "SettingsView.m" file.</p>
+          	<p>The following picture will show you which code to change to personalise it to your app.</p>
+            <p><img class="settingImg" src="assets/images/settings1.jpg"/><p><br>
+             
+            <p><strong>Step 2 (About):</strong></p>
+            <p>To edit the about page you will need to go to the "AboutView.m" file.</p>
+          	<p>The following picture will show you which code to change to personalise it to your app.</p>
+            <p><img class="settingImg" src="assets/images/settings2.jpg"/><p><br>
+            
+           	<p>To edit the layout and text of the about page you will need to edit the AboutView.xib file. Its easy to edit the text, just double click the text box and edit.</p>
+            <p><img class="settingImg" src="assets/images/settings3.jpg"/><p><br>         
+        </div>
+        
+        <!--Contact-->
+        <div id="contact">
+            <h2>Contact</h2>
+            <p>Unfortunately i cannot provide support for this product as i have a full time job so i dont have a lot of time but i will help out as much as i can. I can also make you a launch website for your app for an extra £15, contact me to discuss details.</p>
+            <p>If you would like to contact me then please email <a href ="mailto:support@technsound.com?Subject=Chatter%20Support" target="_top"> me</a></p>
+            <p>Thank you for purchasing this app</p>
+        </div>
+    	
+    </div>    
+
+</body>
+<html>

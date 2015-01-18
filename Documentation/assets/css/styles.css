@@ -1,0 +1,124 @@
+body {
+	margin: 0;
+    padding: 0;
+	overflow-x:hidden;
+	font-family:Verdana, Geneva, sans-serif;
+}
+
+img {
+	width:600px;
+}
+/*----------------
+	   Menu
+-----------------*/
+#menu {
+  background: #333;
+  list-style: none;
+  margin-top: 0;
+  padding: 0;
+  width: 200px;
+  height:100vh;
+  position:fixed;
+}
+
+#menu ul {
+	margin-top:30vh;
+	text-align:center;
+}
+
+#menu li {
+  font-family: Helvetica, sans-serif;
+  font-size:18px;
+  margin-left: -40px;
+  padding-bottom: 20px;
+  list-style:none; 
+}
+
+#menu a {
+  background: #333;
+  color: #ccc;
+  display: block;
+  margin: 0;
+  padding: 8px 12px;
+  text-decoration: none;
+  font-weight: normal;
+}
+
+#menu a:hover {
+  background: #2580a2;
+  color: #fff;
+  padding-bottom: 8px;
+}
+
+#menu li:active {
+	background-color:rgba(0,0,0,1);
+	
+}
+/*----------------
+	   Wrap
+-----------------*/
+#wrapper {
+	height:100%;
+	width:83vw;
+	margin: 0 auto;
+	margin-left:210px;
+	margin-right:700px;
+	padding-top:30px;
+}
+
+/*----------------
+	   Start
+-----------------*/
+#start {
+	height:600px;
+	text-align:center;
+}
+
+#start h1 {
+	text-decoration:underline;
+}
+
+.mockup {
+	height:400px;
+	width:auto;
+}
+
+/*----------------
+	   About
+-----------------*/
+#about {
+	height:600px;
+	text-align:center;
+}
+
+#about h2 {
+	text-decoration:underline;
+}
+
+/*----------------
+	  Parse
+-----------------*/
+#parse h2 {
+	text-decoration:underline;
+}
+/*----------------
+	  Facebook
+-----------------*/
+#facebook h2 {
+	text-decoration:underline;
+}
+
+/*----------------
+	  Settings
+-----------------*/
+.settingImg {
+	width:800px;
+	height:auto;
+}
+
+/*----------------
+	  Contact
+-----------------*/
+#contact h2 {
+	text-decoration:underline;
+}
