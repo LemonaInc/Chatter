@@ -18,11 +18,35 @@
                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Blueedited.png" translatesAutoresizingMaskIntoConstraints="NO" id="O2b-2N-zwD">
                     <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                 </imageView>
+                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8OU-Ov-e7Y">
+                    <rect key="frame" x="-24" y="0.0" width="438" height="202"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Families" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OOv-Lr-fwd">
+                            <rect key="frame" x="25" y="124" width="199" height="58"/>
+                            <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="30"/>
+                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Together" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WjF-gZ-uFq">
+                            <rect key="frame" x="232" y="124" width="206" height="58"/>
+                            <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="30"/>
+                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Connecting" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JhC-Ju-JV7">
+                            <rect key="frame" x="25" y="47" width="413" height="58"/>
+                            <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="30"/>
+                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.40000000000000002" colorSpace="calibratedRGB"/>
+                </view>
                 <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sWA-6m-6EK">
                     <rect key="frame" x="20" y="361" width="280" height="45"/>
                     <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.40000000000000002" colorSpace="calibratedRGB"/>
                     <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="25"/>
-                    <state key="normal" title="Register With Facebook">
+                    <state key="normal" title="Log in with Facebook">
                         <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     </state>
@@ -69,30 +93,19 @@
                         <action selector="actionRegister:" destination="-1" eventType="touchUpInside" id="Ufi-ZT-1Oc"/>
                     </connections>
                 </button>
-                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8OU-Ov-e7Y">
-                    <rect key="frame" x="-24" y="0.0" width="438" height="202"/>
-                    <subviews>
-                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Family's" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OOv-Lr-fwd">
-                            <rect key="frame" x="25" y="124" width="199" height="58"/>
-                            <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="30"/>
-                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                            <nil key="highlightedColor"/>
-                        </label>
-                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Together" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WjF-gZ-uFq">
-                            <rect key="frame" x="232" y="124" width="206" height="58"/>
-                            <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="30"/>
-                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                            <nil key="highlightedColor"/>
-                        </label>
-                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Connecting" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JhC-Ju-JV7">
-                            <rect key="frame" x="25" y="47" width="413" height="58"/>
-                            <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="30"/>
-                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                            <nil key="highlightedColor"/>
-                        </label>
-                    </subviews>
-                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.40000000000000002" colorSpace="calibratedRGB"/>
-                </view>
+                <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Hs-u5-M6L">
+                    <rect key="frame" x="63" y="510" width="194" height="50"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="194" id="IN6-Df-fVH"/>
+                        <constraint firstAttribute="height" constant="50" id="ecu-jb-Iis"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="20"/>
+                    <color key="tintColor" red="0.2470588386" green="0.58039218189999997" blue="0.81568634510000004" alpha="1" colorSpace="deviceRGB"/>
+                    <state key="normal" title="  Log in with Venmo  ">
+                        <color key="titleColor" red="0.2470588386" green="0.58039218189999997" blue="0.81568634510000004" alpha="1" colorSpace="deviceRGB"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                </button>
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
             <constraints>
@@ -103,8 +116,61 @@
                 <constraint firstAttribute="centerX" secondItem="ipY-3m-2hy" secondAttribute="centerX" id="jyS-SX-RUx"/>
                 <constraint firstAttribute="centerX" secondItem="sWA-6m-6EK" secondAttribute="centerX" id="lZp-bu-TnW"/>
             </constraints>
-            <point key="canvasLocation" x="406" y="329"/>
+            <point key="canvasLocation" x="508" y="299"/>
         </view>
+        <viewController id="4kT-bf-jQW" customClass="MVMLoggedOutViewController">
+            <layoutGuides>
+                <viewControllerLayoutGuide type="top" id="iQB-Tq-Lwj"/>
+                <viewControllerLayoutGuide type="bottom" id="qNG-pU-ljQ"/>
+            </layoutGuides>
+            <view key="view" contentMode="scaleToFill" id="jk3-OP-RRE">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fBt-B3-naA">
+                        <rect key="frame" x="63" y="259" width="194" height="50"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="50" id="1mJ-f8-4vi"/>
+                            <constraint firstAttribute="width" constant="194" id="NLT-Mw-3UJ"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="20"/>
+                        <color key="tintColor" red="0.2470588386" green="0.58039218189999997" blue="0.81568634510000004" alpha="1" colorSpace="deviceRGB"/>
+                        <state key="normal" title="  Log in with Venmo  ">
+                            <color key="titleColor" red="0.2470588386" green="0.58039218189999997" blue="0.81568634510000004" alpha="1" colorSpace="deviceRGB"/>
+                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                        <connections>
+                            <action selector="logInButtonAction:" destination="4kT-bf-jQW" eventType="touchUpInside" id="Thu-ut-U99"/>
+                        </connections>
+                    </button>
+                    <navigationBar contentMode="scaleToFill" translucent="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hKn-JJ-T7C">
+                        <rect key="frame" x="0.0" y="20" width="320" height="44"/>
+                        <constraints>
+                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="44" id="LqM-ob-U4e"/>
+                            <constraint firstAttribute="height" constant="44" id="lWS-d8-bct"/>
+                        </constraints>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textColor" red="0.2470588386" green="0.58039218189999997" blue="0.81568634510000004" alpha="1" colorSpace="deviceRGB"/>
+                        </textAttributes>
+                        <items>
+                            <navigationItem title="Login" id="s8q-ai-Cjj"/>
+                        </items>
+                    </navigationBar>
+                </subviews>
+                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                <constraints>
+                    <constraint firstAttribute="centerX" secondItem="fBt-B3-naA" secondAttribute="centerX" id="26f-nz-bpw"/>
+                    <constraint firstAttribute="trailing" secondItem="hKn-JJ-T7C" secondAttribute="trailing" id="5WH-p0-GZC"/>
+                    <constraint firstItem="fBt-B3-naA" firstAttribute="centerY" secondItem="jk3-OP-RRE" secondAttribute="centerY" id="7SW-Nb-kno"/>
+                    <constraint firstItem="hKn-JJ-T7C" firstAttribute="leading" secondItem="jk3-OP-RRE" secondAttribute="leading" id="heA-L3-1qZ"/>
+                    <constraint firstItem="hKn-JJ-T7C" firstAttribute="top" secondItem="iQB-Tq-Lwj" secondAttribute="bottom" id="v7z-gV-tUK"/>
+                </constraints>
+            </view>
+            <connections>
+                <outlet property="logInButton" destination="fBt-B3-naA" id="txC-vp-HoU"/>
+            </connections>
+            <point key="canvasLocation" x="83" y="169"/>
+        </viewController>
     </objects>
     <resources>
         <image name="Blueedited.png" width="2100" height="1600"/>

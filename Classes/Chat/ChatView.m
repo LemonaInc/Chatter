@@ -204,7 +204,7 @@
 //-------------------------------------------------------------------------------------------------------------------------------------------------
 {
     UIActionSheet *action = [[UIActionSheet alloc] initWithTitle:nil delegate:self cancelButtonTitle:@"Cancel" destructiveButtonTitle:nil
-                                               otherButtonTitles:@"Take photo", @"Choose existing photo", nil];
+                                               otherButtonTitles:@"Take photo", @"Choose existing photo", @"Send money", @"Send itnieary", nil];
     [action showInView:self.view];
 }
 

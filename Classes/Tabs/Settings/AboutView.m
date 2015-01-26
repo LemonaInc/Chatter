@@ -93,6 +93,14 @@
     [self dismissViewControllerAnimated:YES completion:NULL];
 }
 
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    
+
+    
+    return YES;
+}
+
+
 //-------------------------------------------------------------------------------------------------------------------------------------------------
 - (IBAction)webClicked:(id)sender
 //-------------------------------------------------------------------------------------------------------------------------------------------------
